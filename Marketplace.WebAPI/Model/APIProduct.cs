@@ -14,7 +14,7 @@ namespace Marketplace.WebAPI.Model
         public string Name { get; set; }
         [JsonProperty("description")]
         public string Description { get; set; }
-        [JsonProperty("")]
+        [JsonProperty("isAvailable")]
         public bool IsAvailable { get; set; }
         public int Price { get; set; }
     }
